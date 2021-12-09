@@ -1,0 +1,25 @@
+
+* {
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+img {
+    height: auto;
+    width: 100%;
+}
+img:hover {
+    opacity: 0.9;
+}
+
+
+@media (max-width: 600px) {
+    img {
+        padding-top: 10px;
+    }
+    .img-hero {
+        display: none;
+    }
+}
